@@ -1,33 +1,90 @@
-.nav a {
-  padding: 1em;
+header {
+  padding: 2%;
 }
 
-.banner .nav li {
-  @extend .nav-item;
+.nav {
+  list-style: none;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
 }
+
+.nav li {
+  float: left;
+  margin-right: 4px;
+  position: relative;
+}
+
+.nav a {
+  // display: block;
+  padding: 5px;
+  color: $black;
+  text-decoration: none;
+}
+
+.nav ul a { white-space: nowrap; }
 
 .banner .nav a {
   @extend .nav-link;
 }
 
-.banner {
-  border: 1px solid $gold;
-  background: $white;
-  color: $black;
+.nav a:hover {
+  color: #fff;
+  background: $gold;
+  text-decoration: underline;
 }
 
-.brand {
-  background-position: center;
-  background-size: cover;
+.nav ul {
+  background: #fff;
+  background: rgba(255, 255, 255, 0);
+  list-style: none;
+  padding-left: 10px;
+  position: absolute;
+  // left: -9999px;
+  display: none;
+}
+
+.nav ul li {
+  padding-top: 1px;
+  float: none;
+}
+
+.nav li:hover ul { display: block; }
+
+.nav li:hover a {
+  background-color: $gold;
+  text-decoration: underline;
+}
+
+.nav li:hover ul a { text-decoration: none; }
+
+.nav li:hover ul li a:hover { background-color: #333; }
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner {
+  background: $white;
+  color: $black;
+  margin-bottom: 5%;
+  position: fixed;
+  top: 20px;
 }
 
 img.logo {
-  width: 250px;
+  width: 290px;
   height: auto;
   margin-bottom: -20px;
 }
 
 .nav-primary {
   font-size: 12px;
-  padding-right: 1%;
+  margin-left: 5px;
+}
+
+ul.submenu { padding-left: 0; }
+
+ul#menu-main-main.nav {
+  padding-left: 50px;
 }
