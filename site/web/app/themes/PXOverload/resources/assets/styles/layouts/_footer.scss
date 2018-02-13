@@ -1,10 +1,10 @@
 // to make the footer stay on the bottom, must ref html
-html {
+content {
   position: relative;
 }
 
 footer {
-  background: beige;
+  // background: beige;
   position: absolute;
   bottom: 0;
   right: 0;

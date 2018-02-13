@@ -30,4 +30,6 @@ class App extends Controller
         }
         return get_the_title();
     }
+
+    protected $acf = true;
 }

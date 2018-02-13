@@ -26,6 +26,14 @@ add_filter('body_class', function (array $classes) {
     return array_filter($classes);
 });
 
+add_filter('sage/template/aboutUs/data', function (array $data) {
+    $data['description'] = get_field('description');
+    $data['awards'] = get_field('awards');
+    $data['preview_works'] = get_field('preview_works');
+    $data['we_are_global'] = get_field('we_are_global');
+    return $data;
+});
+
 /**
  * Add "… Continued" to the excerpt
  */
