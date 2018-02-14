@@ -32,7 +32,7 @@ class About extends Controller
 
     public function weAreGlobal()
     {
-        return wpautop(get_field('we_are_global'));
+        return get_field('we_are_global');
     }
 
   protected $acf = true;

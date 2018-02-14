@@ -1,18 +1,18 @@
 // to make the footer stay on the bottom, must ref html
-content {
+html {
   position: relative;
 }
 
 footer {
   // background: beige;
   position: absolute;
-  bottom: 0;
   right: 0;
   left: 0;
   padding: 1rem;
   width: 100%;
   z-index: 1;
   overflow: hidden;
+  margin-top: 200px;
 }
 
 ul#menu-footer-links.navfooter {

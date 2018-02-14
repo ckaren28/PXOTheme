@@ -4,11 +4,11 @@
   <body @php(body_class())>
     @include('partials.header')
     @php(do_action('get_header'))
-    <div class="wrap container aboutLayout" role="document">
-      <div class="content">
+    <div class="wrap aboutLayout" role="document">
+      <div class="layout-about content">
+        <h2>coming from layouts</h2>
         <main class="about">
-          @yield('content-about-us')
-          layouts/about
+          @yield('content-aboutUs')
         </main>
       </div>
     </div>

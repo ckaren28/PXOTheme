@@ -27,10 +27,12 @@ add_filter('body_class', function (array $classes) {
 });
 
 add_filter('sage/template/aboutUs/data', function (array $data) {
-    $data['description'] = get_field('description');
-    $data['awards'] = get_field('awards');
-    $data['preview_works'] = get_field('preview_works');
+    $data['about_us_hero_image'] = get_field('about_us_hero_image');
+    $data['about_us_description'] = get_field('about_us_description');
+    $data['about_us_awards'] = get_field('about_us_awards');
+    $data['about_us_preview_works'] = get_field('about_us_preview_works');
     $data['we_are_global'] = get_field('we_are_global');
+
     return $data;
 });
 

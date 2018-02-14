@@ -1,0 +1,12 @@
+.basicBtn {
+  color: $black;
+  padding: 1%;
+  border: 1px solid $black;
+  font-size: 2rem;
+  margin: 2%;
+
+  &:hover {
+    background: $black;
+    color: aliceblue;
+  }
+}

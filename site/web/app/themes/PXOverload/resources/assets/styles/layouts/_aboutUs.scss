@@ -1,5 +1,76 @@
-.aboutBack {
-  background: $red;
-  height: 1000px;
+.aboutPXO {
+  .about-us-description {
+    color: $white;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-top: 29%;
+    background: $navyBlue;
+    width: 101%;
+    padding: 5%;
+  }
+}
+
+.hero {
+  .heroImg {
+    width: 101%;
+    max-height: 80vh;
+    position: absolute;
+    height: auto;
+    z-index: -1;
+    top: -10px;
+    left: 0;
+  }
+}
+
+.row.awards {
+  background: $black;
   color: $white;
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  .about-us-awards {
+    margin-left: 10%;
+    width: 60%;
+    padding: 3%;
+    font-size: 1.5rem;
+  }
+
+  .about-awards {
+    max-width: 300px;
+    margin-left: 30%;
+  }
+}
+
+.aboutLayout {
+  width: 100%;
+  // background: $black;
+}
+
+.template-aboutUs {
+  width: 100%;
+  // background: $black;
+}
+
+.about_us_preview_works {
+  background: darkslategray;
+  width: 100%;
+  height: 500px;
+}
+
+.we-are-global {
+  width: 100%;
+  background: bisque;
+  height: 400px;
+  background-image: url('../images/aboutPXO-hollywood.png');
+  background-position: center -10px;
+  background-size: cover;
+}
+
+// links
+.viewOffices {
+  position: absolute;
+  bottom: 150px;
+  left: 2%;
+  text-align: center;
 }
