@@ -4,10 +4,11 @@
   <body @php(body_class())>
     @php(do_action('get_header'))
     @include('partials.header')
+    this is the staff blade.
     <div class="container-fluid" role="document">
-      <div class="content">
-        <main class="main">
-          @yield('content')
+      <div class="row">
+        <main class="staffPage">
+          @yield('content-staff')
         </main>
         @if (App\display_sidebar())
           <aside class="sidebar">

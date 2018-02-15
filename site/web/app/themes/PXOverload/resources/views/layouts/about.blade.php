@@ -6,7 +6,6 @@
     @php(do_action('get_header'))
     <div class="wrap aboutLayout" role="document">
       <div class="layout-about content">
-        <h2>coming from layouts</h2>
         <main class="about">
           @yield('content-aboutUs')
         </main>

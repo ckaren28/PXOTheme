@@ -1,0 +1,31 @@
+.commercial-header {
+  height: 100vh;
+  width: 100vw;
+  background: url('../images/tv.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  img.tvCover {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.blackback {
+  position: absolute;
+  top: 0;
+  background: $black;
+}
+
+.plaidBack {
+  background: lightsalmon;
+  height: 30vh;
+}
+
+.commercialTeam {
+  background: antiquewhite;
+  height: 30vh;
+}

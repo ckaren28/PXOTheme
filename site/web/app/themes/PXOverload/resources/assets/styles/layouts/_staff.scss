@@ -1,0 +1,32 @@
+.member-info {
+  border: 1px solid $gold;
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+  right: 5%;
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 240px solid $gold;
+  }
+}
+
+.staffPage {
+  margin-left: 5%;
+  border: aquamarine 1px solid;
+  height: 80vh;
+  overflow: scroll;
+  width: 100%;
+  display: flex;
+}
+
+img.staff-grid {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  border: 1px solid $gold;
+  margin: 5px;
+}

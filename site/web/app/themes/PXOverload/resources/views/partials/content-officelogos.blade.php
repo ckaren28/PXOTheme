@@ -1,43 +1,43 @@
 <ul class="all-office-icons">
   <li>
     <a href="#LA">
-      <img src="@assets(images/logo.png)" />
-      <h4>Los Angeles</h4>
+      <img class="icon-logo" src="@asset('images/icon_LA-logo.png')" />
+  '    <h4>Los Angeles</h4>
     </a>
   </li>
   <li>
     <a href="#TO">
-      <img src="@assets(images/logo.png)" />
+      <img class="icon-logo" src="@asset('images/icon_Toronto-logo.png')" />
       <h4>Toronto</h4>
     </a>
   </li>
   <li>
     <a href="#VC">
-      <img src="@assets(images/logo.png)" />
+      <img class="icon-logo" src="@asset('images/icon_Vancouver-logo.png')" />
       <h4>Vancouver</h4>
     </a>
   </li>
   <li>
     <a href="#ST">
-      <img src="@assets(images/logo.png)" />
+      <img class="icon-logo" src="@asset('images/icon_Stuttgart-logo.png')" />
       <h4>Stuttgart</h4>
     </a>
   </li>
   <li>
     <a href="#FF">
-      <img src="@assets(images/logo.png)" />
+      <img class="icon-logo" src="@asset('images/icon_Frankfurt-logo.png')" />
       <h4>Frankfurt</h4>
     </a>
   </li>
   <li>
     <a href="#BJ">
-      <img src="@assets(images/logo.png)" />
+      <img class="icon-logo" src="@asset('images/icon_Beijing-logo.png')" />
       <h4>Beijing</h4>
     </a>
   </li>
   <li>
     <a href="#SH">
-      <img src="@assets(images/logo.png)" />
+      <img class="icon-logo" src="@asset('images/icon_Shanghai-logo.png')" />
       <h4>Shanghai</h4>
     </a>
   </li>

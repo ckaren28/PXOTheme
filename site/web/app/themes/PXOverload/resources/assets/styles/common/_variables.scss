@@ -7,6 +7,8 @@ $red: #f00;
 $navyBlue: #0f1823;
 
 // Fonts
+$cursive: crystalsky; 
+
 @mixin font($a : none) {
   @if $a == bold {
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
@@ -38,7 +40,7 @@ $navyBlue: #0f1823;
     font-stretch: normal;
   }
 }
-h1 { @include font(bold); }
+h1 { @include font(light); }
 h2 { @include font(medium); }
 h3 { @include font(light); }
 h4 { @include font(thin); }
