@@ -1,0 +1,38 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+img.officeContactImage {
+  width: 100%;
+  z-index: -1;
+  height: 41vh;
+}
+
+h1.office-location-header {
+  position: absolute;
+  margin: 0 auto;
+  color: $white;
+  font-size: 35px;
+  top: 25%;
+  margin-left: 9%;
+  z-index: 2;
+  height: 60vh;
+  width: 100vw;
+}
+
+.office_info {
+  // display: none;
+  color: $white;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  height: 41vh;
+  vertical-align: center;
+  padding: 9%;
+
+  &:hover {
+    display: block;
+  }
+}

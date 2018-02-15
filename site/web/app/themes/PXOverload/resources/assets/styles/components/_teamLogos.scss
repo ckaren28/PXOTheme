@@ -1,0 +1,13 @@
+.all-office-icons {
+  li {
+    display: inline-block;
+    padding: 2%;
+    list-style: none;
+    color: $black;
+    text-align: center;
+
+    &:first-child {
+      margin-left: 15%;
+    }
+  }
+}

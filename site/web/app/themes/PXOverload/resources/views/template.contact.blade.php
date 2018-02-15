@@ -3,10 +3,14 @@
 --}}
 
 @extends('layouts.app')
-
 @section('content')
-  @while(have_posts()) @php(the_post())
-    @include('partials.page-header')
-    @include('partials.content-contact')
-  @endwhile
+  @include('partials.page-header')
+  @include('partials.content-officelogos')
+  @php('global $post;')
+  @if(have_rows('display_offices'))
+    @while(have_rows('display_offices'))
+      @php(the_row())
+      @include('partials.content-contact')
+    @endwhile
+  @endif
 @endsection
