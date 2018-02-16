@@ -29,10 +29,10 @@
 
   h2.theTeam {
     font-weight: 650;
-    font-size: 4rem;
+    font-size: 3rem;
     position: absolute;
-    right: 17%;
-    margin-top: -3%;
+    right: 19%;
+    margin-top: -1%;
     text-transform: uppercase;
   }
 
@@ -44,11 +44,15 @@
   }
 }
 
+.tri {
+  margin-top: -100px;
+}
+
 .triangleWrap {
   margin-left: 17%;
   position: relative;
   border-top: 5px solid $gold;
-  height: 925px;
+  height: 50px;
   width: 925px;
 }
 
@@ -66,6 +70,19 @@
 }
 
 .commercialTeam {
-  background: antiquewhite;
-  height: 30vh;
+  height: 80vh;
+}
+
+.teamphoto {
+  text-align: center;
+}
+
+.comTeam {
+  margin: 1%;
+  border: solid 1px azure;
+  height: 70vh;
+
+  &:first-child {
+    margin-left: 5%;
+  }
 }

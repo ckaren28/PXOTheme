@@ -1,0 +1,29 @@
+img.ProfilePic {
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
+  border-bottom: solid 1px $black;
+}
+
+.entry-content-bio {
+  vertical-align: top;
+  padding: 2%;
+}
+
+h1.entry-title {
+  color: $black;
+  font-size: 20px;
+}
+
+.profileImgContainer {
+  text-align: center;
+}
+
+.social-media-contact {
+  li {
+    list-style: none;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px;
+  }
+}

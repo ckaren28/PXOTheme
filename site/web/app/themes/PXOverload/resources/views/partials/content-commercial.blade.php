@@ -5,11 +5,29 @@
 <div class="teamphoto">
   will have to add team photo here
 </div>
-<div class="commercialTeam">
-  <div class="triangleWrap">
-    <div class="largeTriangle">
+<div class=" commercialTeam">
+  <div class="tri">
+    <div class="triangleWrap">
+      <div class="largeTriangle">
+      </div>
     </div>
-  </div>
+  </div> <!--gold triangle -->
 
-  commercial team info here
-</div>
+  <div class ="row">
+    <div class="col-sm-2 comTeam Top">
+      person 1
+    </div>
+    <div class="col-sm-2 comTeam Mid">
+      person 2
+    </div>
+    <div class="col-sm-2 comTeam Bottom">
+      person 3
+    </div>
+    <div class="col-sm-2 comTeam Mid">
+      person 4
+    </div>
+    <div class="col-sm-2 comTeam Top">
+      person 5
+    </div>
+  </div> <!--row-->
+</div> <!--row Commerical Team -->

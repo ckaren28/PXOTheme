@@ -1,11 +1,11 @@
 <article @php(post_class())>
   <header>
-    <div class="profileImgContainer col-sm-4">
-      @include('partials/entry-meta')
-      <!-- <h1 class="entry-title">{{ get_the_title() }}</h1> -->
-    </div>
+    <h1 class="entry-title">{{ get_the_title() }}  </h1>
+    @include('partials/entry-meta')
   </header>
-  <div class="entry-content-bio col-sm-6">
+  <div class="entry-content-singleJob">
+    @include('partials/content-singleJob')
+
     @php(the_content())
   </div>
   <footer>
