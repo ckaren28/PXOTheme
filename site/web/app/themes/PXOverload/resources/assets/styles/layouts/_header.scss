@@ -91,4 +91,11 @@ ul#menu-main-main.nav {
 
 .page-header {
   text-align: center;
+  font-family: $cursive;
+
+  h1 {
+    font-stretch: expanded;
+    letter-spacing: 5px;
+    font-size: 70px;
+  }
 }

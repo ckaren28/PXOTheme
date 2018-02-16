@@ -4,7 +4,6 @@
   <body @php(body_class())>
     @php(do_action('get_header'))
     @include('partials.header')
-    this is the staff blade.
     <div class="container-fluid" role="document">
       <div class="row">
         <main class="staffPage">

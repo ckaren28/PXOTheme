@@ -1,0 +1,39 @@
+.jobRow {
+  margin: 0.5%;
+}
+
+.displayJobs {
+  margin-top: 20%;
+  display: flex;
+}
+
+.headerJobs {
+  width: 200px;
+}
+
+.oneJobOutline {
+  border: $gold 1px solid;
+  margin: 1%;
+  padding: 10px;
+  text-align: center;
+
+  a {
+    h2.jobTitle {
+      font-size: 18px;
+      font-weight: 300;
+      color: $black;
+    }
+
+    h3.subheading {
+      font-size: 14px;
+      font-weight: 600;
+      color: grey;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.jobsOfficeLogo {
+  width: 70%;
+  margin: 0 auto;
+}
