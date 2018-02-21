@@ -6,6 +6,7 @@
 
 @section('content')
     @include('partials.header-commercial')
+    @include('partials.content-tvbuttons')
     @include('partials.content-commercial')
     @include('partials.content-page')
 @endsection

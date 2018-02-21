@@ -1,8 +1,11 @@
-<div class="col-xs-12 col-sm-3 member-info">
+<div class="col-xs-12 col-sm-3 member-info" id="member">
   <div class="triangle">
     Image Here
   </div>
   <div class="member-description">
-    selected info from page goes here
+    {{the_field('first_name')}}
+  </div>
+  <div id="info">
+    
   </div>
 </div>

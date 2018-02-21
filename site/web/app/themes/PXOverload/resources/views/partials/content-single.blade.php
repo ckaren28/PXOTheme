@@ -1,7 +1,6 @@
 <article @php(post_class())>
   <header>
     <div class="profileImgContainer col-sm-4">
-      @include('partials/entry-meta')
       <!-- <h1 class="entry-title">{{ get_the_title() }}</h1> -->
     </div>
   </header>

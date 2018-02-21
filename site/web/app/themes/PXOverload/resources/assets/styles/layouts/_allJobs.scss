@@ -37,3 +37,30 @@
   width: 70%;
   margin: 0 auto;
 }
+
+// jobsingles
+.single-job-top {
+  background: lightgrey;
+  padding: 35px;
+  margin-bottom: 10%;
+  text-align: left;
+}
+
+.single-job-bottom {
+  h2 {
+    padding: 20px 0;
+    color: blue;
+  }
+}
+
+.job-description {
+  background: burlywood;
+}
+
+.job-responsibilities {
+  background: pink;
+}
+
+.apply-online {
+  border-left: 1px solid $gold;
+}

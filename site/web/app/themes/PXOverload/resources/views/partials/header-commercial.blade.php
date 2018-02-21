@@ -1,5 +1,8 @@
 <div class="blackback">
   <div class="commercial-header">
-    <!-- <img src="@asset('images/tv.png')" alt= "tv as the screen"/ class="tvCover"> -->
-  </div>  
+    <div class="tv-inside">
+      {{the_field('television_videos')}}
+    </div>
+
+  </div>
 </div>

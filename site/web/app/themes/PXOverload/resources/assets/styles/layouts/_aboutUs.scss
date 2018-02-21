@@ -1,12 +1,10 @@
 .aboutPXO {
   .about-us-description {
-    color: $white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0 auto;
     margin-top: 29%;
-    background: $navyBlue;
     width: 101%;
-    padding: 5%;
+    padding: 5% 10%;
   }
 }
 
@@ -26,18 +24,18 @@
   background: $black;
   color: $white;
   display: inline-block;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding: 10%;
 
   .about-us-awards {
-    margin-left: 10%;
+    margin-left: 15%;
     width: 60%;
     padding: 3%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 100;
   }
 
   .about-awards {
-    max-width: 300px;
+    max-width: 350px;
     margin-left: 30%;
   }
 }
@@ -60,11 +58,13 @@
 
 .we-are-global {
   width: 100%;
-  background: bisque;
-  height: 400px;
+  background: #bac5b2;
+  height: 70vh;
   background-image: url('../images/aboutPXO-hollywood.png');
-  background-position: center -10px;
-  background-size: cover;
+  background-attachment: fixed;
+  background-position: left 10px top 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 // links

@@ -30,8 +30,6 @@
       <a href="#" class="basicBtn viewOffices"> View the Offices </a>
     </div>
   </div> <!--row-->
-  <div class="row">
-  </div><!--row-->
 </div>
 
 </article>

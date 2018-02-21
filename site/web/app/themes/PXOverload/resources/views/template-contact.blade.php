@@ -4,7 +4,7 @@
 
 @extends('layouts.fullw')
 @section('content')
-  @include('partials.page-header')
+  <!-- @include('partials.page-header') -->
   @include('partials.content-contact-hero')
   @include('partials.content-officelogos')
   @php('global $post')

@@ -1,0 +1,33 @@
+.cult {
+  width: 100%;
+  // border: solid 1px $red;
+}
+
+.cultureQuote {
+  width: 25%;
+  display: inline-block;
+  // background: aqua;
+  margin: 3.6%;
+}
+
+.culture-blurb {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.jobQuery {
+  a {
+    text-align: right;
+  }
+}
+
+h1.cursive {
+  text-align: center;
+  font-family: $cursive;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+h1.culture-blurb {
+  font-weight: 200;
+}

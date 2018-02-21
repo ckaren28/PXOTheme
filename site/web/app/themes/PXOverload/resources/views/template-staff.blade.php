@@ -6,7 +6,7 @@
 @section('content')
 
   @include('partials.page-header')
-  <div class="col-xs-12 col-sm-8 staffPage">
+  <div class="col-xs-12 col-sm-8 staffPage" >
     @php('global $post;')
     @if(have_rows('all_staff'))
       @while(have_rows('all_staff'))
@@ -15,7 +15,6 @@
       @endwhile
     @endif
   </div>
-
-  @include('partials.content-teammate-single')
+    @include('partials.content-teammate-single')
 
 @endsection
