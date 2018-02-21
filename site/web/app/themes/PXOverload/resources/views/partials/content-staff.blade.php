@@ -6,8 +6,8 @@
       $post = $post_object;
       setup_postdata($post);
       ?>
-  <div class="oneBio" id="person">
-    <a href="<?php the_title()?>">
+  <div class="oneBio">
+    <a href="<?php the_title()?>" id="person">
       <img src="{{the_field('member_photo')}}" alt="{{the_field('member_photo')}}" class="staff-grid" />
       <h2>{{the_field('first_name')}} {{the_field('last_name')}}</h2>
       <h3>{{the_field('staff_title')}}</h3>

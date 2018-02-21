@@ -5,6 +5,7 @@
   background: $white;
   z-index: 4;
   padding-top: 2%;
+  margin-top: 20%;
 
   li {
     display: inline-block;
@@ -13,8 +14,13 @@
     color: $black;
     text-align: center;
 
+    h4 {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
     &:first-child {
-      margin-left: 15%;
+      margin-left: 28%;
     }
   }
 }

@@ -1,35 +1,110 @@
-.container-fluid {
-  padding: 0;
-  margin: 0;
-}
-
-img.officeContactImage {
-  width: 100%;
-  z-index: -1;
-  height: 41vh;
+.heroImg {
+  position: absolute;
+  top: 0;
 }
 
 h1.office-location-header {
   position: absolute;
   margin: 0 auto;
   color: $white;
-  font-size: 35px;
+  font-size: 4rem;
   top: 25%;
   z-index: 2;
+  padding-left: 15%;
+  font-weight: 200;
 }
 
 .office_info {
-  // display: none;
   color: $white;
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   right: 0;
-  z-index: 3;
-  height: 41vh;
-  vertical-align: center;
-  padding: 9%;
+  // z-index: 1;
+  height: 100%;
+  padding: 2%;
+  left: 100%;
+  width: 60%;
+  transition: top 0.5s, right 0.5s, bottom 0.5s, left 0.5s;
+}
+
+.officebackground {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  height: 60vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
 
   &:hover {
-    display: block;
+    .office_info {
+      cursor: pointer;
+      left: 40%;
+    }
   }
 }
+
+ul {
+  list-style: none;
+}
+
+ul.contact {
+  &:first-child {
+    // padding-top: 10%;
+    padding-left: 5%;
+  }
+
+  li {
+    padding-bottom: 1%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: inline;
+    color: floralwhite;
+  }
+
+  p { display: inline; }
+}
+
+h4.conHead {
+  vertical-align: top;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 10%;
+}
+
+h4.contactLeads {
+  vertical-align: top;
+  font-size: 2rem;
+  font-weight: 200;
+  // padding-top: 10%;
+}
+
+p.name {
+  font-size: 16px;
+}
+
+p.pos {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+ul.officeInfo {
+  height: 100%;
+}
+
+.contact_row {
+  vertical-align: middle;
+}
+
+// .col-xs-4 {
+//   border: solid 1px darkred;
+// }
