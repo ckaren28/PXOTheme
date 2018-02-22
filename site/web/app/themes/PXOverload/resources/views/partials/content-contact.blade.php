@@ -15,7 +15,7 @@
 
           <h1 class="office-location-header"> {{the_field('contact_office_location')}}</h1>
 
-
+        <div class="contactWrap">
           <div class="col-xs-12 col-sm-8 office_info">
             <ul class="contact officeInfo col-xs-4">
               <h4 class="conHead">Office</h4>
@@ -45,7 +45,6 @@
                 <p class="name"> {{the_sub_field('full_name')}} </p>
               </li>
               <li>
-              <!-- <h3 class= "LeadTitle"> Title:</h3> -->
                 <p class="pos"> {{the_sub_field('title')}} | {{the_sub_field('department')}} </p>
               </li>
               </li>
@@ -62,6 +61,8 @@
           ?>
 
         </div>
+        </div>
+
       </div>  <!--r0w entire office block -->
       <?php wp_reset_postdata(); ?>
       <?php endif; ?>

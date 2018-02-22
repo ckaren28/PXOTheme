@@ -56,7 +56,7 @@ class SageWrapping {
 
     if (self::$base === 'index') {
       self::$base = false;
-    }
+    }\]['']
 
     return new SageWrapping();
   }

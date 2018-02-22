@@ -19,17 +19,16 @@ h1.office-location-header {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   right: 0;
-  // z-index: 1;
+  padding: 10% 7%;
   height: 100%;
-  padding: 2%;
   left: 100%;
-  width: 60%;
+  width: 50%;
   transition: top 0.5s, right 0.5s, bottom 0.5s, left 0.5s;
 }
 
 .officebackground {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 60vh;
@@ -40,7 +39,7 @@ h1.office-location-header {
   &:hover {
     .office_info {
       cursor: pointer;
-      left: 40%;
+      left: 50%;
     }
   }
 }
@@ -78,14 +77,12 @@ h4.conHead {
   vertical-align: top;
   font-size: 2rem;
   font-weight: 200;
-  padding-top: 10%;
 }
 
 h4.contactLeads {
   vertical-align: top;
   font-size: 2rem;
   font-weight: 200;
-  // padding-top: 10%;
 }
 
 p.name {
@@ -105,6 +102,7 @@ ul.officeInfo {
   vertical-align: middle;
 }
 
-// .col-xs-4 {
-//   border: solid 1px darkred;
-// }
+.start {
+  margin-top: -90px;
+  padding-top: 90px;
+}
