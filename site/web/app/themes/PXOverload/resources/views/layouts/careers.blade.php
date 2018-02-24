@@ -6,8 +6,10 @@
       <div class="row headerJobs">
         @include('partials.header')
       </div>
-      <div class="jobsOfficeLogo">
-        @include('partials.content-officelogos')
+      <div class="row">
+        <div class="jobsOfficeLogo col-xs-12">
+          @include('partials.content-officelogos')
+        </div>
       </div> <!--row-->
       <div class="row jobRow">
           <main class="container-flex">
