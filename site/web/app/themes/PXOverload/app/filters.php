@@ -26,15 +26,6 @@ add_filter('body_class', function (array $classes) {
     return array_filter($classes);
 });
 
-add_filter('sage/template/aboutUs/data', function (array $data) {
-    $data['about_us_hero_image'] = get_field('about_us_hero_image');
-    $data['about_us_description'] = get_field('about_us_description');
-    $data['about_us_awards'] = get_field('about_us_awards');
-    $data['about_us_preview_works'] = get_field('about_us_preview_works');
-    $data['we_are_global'] = get_field('we_are_global');
-
-    return $data;
-});
 
 /**
  * Add "… Continued" to the excerpt
@@ -78,3 +69,27 @@ add_filter('comments_template', function ($comments_template) {
     );
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
+
+/**
+* Register Queries vars
+*/
+add_filter( 'rest_query_vars', function( $valid_vars ) {
+    return array_merge( $valid_vars, array( 'meta_query', 'meta_key', 'meta_value' ) );
+} );
+
+add_filter( 'rest_post_query', function( $args, $request ) {
+    $key   = $request->get_param( 'meta_key' );
+    $value = $request->get_param( 'meta_value' );
+
+    if ( 'land' == $key && ! empty( $value ) ) {
+        $args['meta_query'] = array(
+            array(
+                'key'     => $key,
+                'value'   => $value,
+                'compare' => '=',
+            )
+        );
+    }
+
+    return $args;
+}, 10, 2 );

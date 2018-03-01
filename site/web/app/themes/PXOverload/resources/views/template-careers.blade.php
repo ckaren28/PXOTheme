@@ -4,12 +4,12 @@
 
 @extends('layouts.careers')
 
+
 @section('content-jobs')
-  @php('global $post;')
-  @if(have_rows('all_jobs'))
-    @while(have_rows('all_jobs'))
-      @php(the_row())
-        @include('partials.content-displayJobs')
-    @endwhile
-  @endif
+  @while(have_posts()) @php(the_post())
+  @include('partials.page-header')
+  @include('partials.content-iconQ')
+    @php('global $post;')
+    @include('partials.content-displayJobs')
+  @endwhile
 @endsection

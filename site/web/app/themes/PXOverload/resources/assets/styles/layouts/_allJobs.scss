@@ -7,15 +7,14 @@
   display: flex;
 }
 
-.headerJobs {
-  width: 200px;
-}
-
 .oneJobOutline {
   border: $gold 1px solid;
-  margin: 1%;
+  margin: 5px;
   padding: 10px;
   text-align: center;
+  width: 180px;
+  height: 90px;
+  align-items: center;
 
   a {
     h2.jobTitle {
@@ -32,15 +31,10 @@
     }
 
     &:hover {
-      color: red;
+      color: white;
       background: grey;
     }
   }
-}
-
-.jobsOfficeLogo {
-  width: 70%;
-  margin: 0 auto;
 }
 
 // jobsingles --------------------------------
@@ -69,4 +63,180 @@
 
 .apply-online {
   border-left: 1px solid $gold;
+}
+
+article.post-50 {
+  width: 100%;
+}
+
+.pconenta {
+  width: 100%;
+  overflow-y: scroll;
+  min-width: 100%;
+  padding: 2%;
+}
+
+ul.jobposts {
+  padding: 0;
+}
+
+li.jobpost {
+  border: 1px solid $gold;
+  display: inline-block;
+}
+
+li.officeIcon {
+  // padding: 3%;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+
+  a.job {
+    h4.office-logo {
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+}
+
+.Click {
+  min-width: 100%;
+  position: sticky;
+  border: 1px solid $gold;
+  padding-left: 25%;
+}
+
+.all {
+  padding-left: 45%;
+}
+
+.ALLlogo {
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 25%;
+}
+
+ul.CLick2 {
+  position: sticky;
+}
+
+ul.Click2.rest {
+  width: 100%;
+  padding-left: 24%;
+}
+
+.job-office-logo {
+  padding: 10px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.job-office-logo.LAlogo {
+  background-image: url('./images/icon_LA-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+.job-office-logo.TOlogo {
+  background-image: url('./images/icon_Toronto-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+.job-office-logo.SHlogo {
+  background-image: url('./images/icon_Shanghai-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+.job-office-logo.BJlogo {
+  background-image: url('./images/icon_Beijing-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+.job-office-logo.FFlogo {
+  background-image: url('./images/icon_Frankfurt-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+.job-office-logo.SGlogo {
+  background-image: url('./images/icon_Stuttgart-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+.job-office-logo.VClogo {
+  background-image: url('./images/icon_Vancouver-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+li.jobpost.Toronto:hover {
+  // display: none;
+  background-image: url('./images/icon_Toronto-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+li.jobpost.LA:hover {
+  // display: none;
+  background-image: url('./images/icon_LA-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+li.jobpost.Vancouver:hover {
+  // display: none;
+  background-image: url('./images/icon_Vancouver-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+li.jobpost.Shanghai:hover {
+  // display: none;
+  background-image: url('./images/icon_Shanghai-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+li.jobpost.Frankfurt:hover {
+  // display: none;
+  background-image: url('./images/icon_Frankfurt-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+li.jobpost.Stuttgart:hover {
+  // display: none;
+  background-image: url('./images/icon_Stuttgart-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main.jobs {
+  margin-top: -300px;
 }

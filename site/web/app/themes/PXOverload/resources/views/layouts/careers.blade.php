@@ -2,18 +2,12 @@
 <html @php(language_attributes())>
   @include('partials.head')
   <body @php(body_class())>
-    <div class="container'flex" role="document">
-      <div class="row headerJobs">
-        @include('partials.header')
-      </div>
-      <div class="row">
-        <div class="jobsOfficeLogo col-xs-12">
-          @include('partials.content-officelogos')
-        </div>
-      </div> <!--row-->
-      <div class="row jobRow">
-          <main class="container-flex">
-            <div class="displayJobs">
+    <div class="container-flex" role="document">
+      @php(do_action('get_header'))
+      @include('partials.header')
+      <div class="jobRow">
+          <main class="container-flex jobs">
+            <div class="displayJobs row">
               @yield('content-jobs')
             </div>
           </main>

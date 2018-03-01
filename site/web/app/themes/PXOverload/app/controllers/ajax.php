@@ -50,7 +50,7 @@ function roots_ajax_response($response = null) {
 /**
  * Return the post content to the AJAX call
  */
-function kec_ajax_content () {
+function kec_load_content () {
     $args = array(
       'p' => $_POST['post_id'],
       'post_type' => 'team_member',
@@ -74,6 +74,6 @@ function kec_ajax_content () {
 
 }
 
-add_action ( 'wp_ajax_nopriv_kec_load-content', 'kec_ajax_content' );
-add_action ( 'wp_ajax_kec_load-content', 'kec_ajax_content' );
+add_action ( 'wp_ajax_nopriv_kec_load-content', 'kec_load_content' );
+add_action ( 'wp_ajax_kec_load-content', 'kec_load_content' );
 ?>
